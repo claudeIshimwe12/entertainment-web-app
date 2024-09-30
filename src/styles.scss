@@ -1,5 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
 
+@import "primeicons/primeicons.css";
 /* Font Style*/
 
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
@@ -17,3 +20,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --main-color: #10141e;
+  --second-color: #161d2f;
+  --white: #ffffff;
+  --red: #fc4747;
+  --blue: #5a698f;
+}
