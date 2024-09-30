@@ -28,14 +28,16 @@
     "@angular/platform-server": "^18.0.0",
     "@angular/router": "^18.0.0",
     "@angular/ssr": "^18.0.6",
+    "@firebase/app": "^0.10.11",
+    "@firebase/auth-compat": "^0.5.14",
     "@ngrx/effects": "^18.0.2",
     "@ngrx/entity": "^18.0.2",
     "@ngrx/store": "^18.0.2",
     "@ngrx/store-devtools": "^18.0.2",
     "express": "^4.18.2",
+    "primeflex": "^3.3.1",
     "primeicons": "^7.0.0",
     "primeng": "^17.18.11",
-    "primeflex": "^3.3.1",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.3"
@@ -78,5 +80,8 @@
       "prettier --write"
     ],
     "*.scss": "prettier --write"
+  },
+  "resolutions": {
+    "undici": "4.7.0"
   }
 }
